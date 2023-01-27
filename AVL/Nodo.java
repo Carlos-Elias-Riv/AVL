@@ -1,5 +1,5 @@
-package AVL;
 
+//This code presents an implementation of a node
 public class Nodo<T extends Comparable<T>> implements PrintableNode {
     T elem;
     Nodo<T> izq, der, papa;
